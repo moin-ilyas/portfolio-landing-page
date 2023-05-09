@@ -1,0 +1,156 @@
+body{
+    margin: 3px;
+    padding: 3px;
+    padding-top: 11px;
+    font-family: 'Times New Roman', Times, serif;
+    background: rgb(4, 7, 7);
+}
+         /* NAVBAR CREATION  */
+.navbar{
+    padding-top: 25px;
+    display: flex;
+    height: 20px;
+    justify-content: space-between;
+    /* background-color: lightsalmon; */
+    /* height:50px; */
+    align-items: center;
+    /* width:100%; */
+}
+
+nav p{
+    padding: 35px 0px 0px 45px;
+    /* height: auto; */
+    color: blanchedalmond;
+    font-size: 35px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+nav p span{
+    color: rgb(223, 97, 97);
+    /* size: 40%; */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+        /* MAIN SECTION */
+
+img{
+    height:50px;
+    width: 100px;
+}
+
+.navs{
+    padding-right: 17px;
+    min-width: 40% ;
+    display: flex;
+    justify-content: space-around;   
+}
+
+.navs a{
+    color: beige;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: bold;
+    transition: .4s;
+}
+
+.navs a:hover{
+    color: rgb(223, 97, 97);
+    cursor: pointer;
+}
+
+main{
+    height:300px;
+    padding-top: 125px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    /* flex-wrap: wrap; */
+}
+
+.mainsection p{
+    font-size: 21px;
+    color: blanchedalmond;
+    font-weight: 300;
+}
+.mainsection h1{
+    font-size: 27px;
+    color: blanchedalmond;
+}
+
+.name{
+    font-size: 41px;
+    color: rgb(223, 97, 97);
+}
+
+header{
+    padding-bottom: 0px;
+}
+
+header img{
+    width: auto;
+    height : 50%;
+}
+
+header p{
+    background-color: rgb(197, 17, 89);
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+}
+
+/* #downloadbtn{
+    background-color: rgb(197, 17, 89);
+    text-align: center;
+    color: white;
+    border-radius: 7px;
+    align-self: center;
+} */
+
+
+header p:hover, #downloadbtn:hover{
+    background-color: red;
+    color   : white;
+    cursor: pointer;
+    transition: .4s;
+}
+
+        /* ABOUT ME SECTION STARTS*/
+
+.about{
+    padding-top: 30px;
+    height: 325px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}  
+
+.aboutimage{
+    width: auto;
+    height : 60%;
+}
+
+.abouttext{
+    color: bisque;
+    width: 50%;
+}
+
+/* <!-- CONTACT US STARTS HERE --> */
+.contactus{
+    padding-top: 30px;
+    height: 325px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.contactustext{
+   
+    color: bisque;
+    width: 50%;
+}
+
+.contactusimage{
+    width: auto;
+    height : 60%;
+}
